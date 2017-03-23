@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
@@ -9,6 +10,12 @@ html, body {
 
 html, body, #root {
   height: 100%;
+}
+
+/* FONTS */
+
+.handwritten {
+  font-family: 'Pacifico', cursive;
 }
 
 /* GRID */
