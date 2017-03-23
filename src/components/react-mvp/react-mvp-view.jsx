@@ -1,11 +1,12 @@
 import React, { PureComponent } from 'react';
+
 import { Row, Col } from 'react-flexbox-grid';
-import { Container, Icon } from 'semantic-ui-react'
 
 import Header from '../../core/view/header';
 import Footer from '../../core/view/footer';
 
 import HeroHeader from './components/hero-header';
+import EventInfo from './components/event-info';
 
 import './react-mvp.css';
 
@@ -25,12 +26,11 @@ class ReactMVPView extends PureComponent {
 
   render() {
     return (
-      <div className="layout-full-height" id="react-mvp">
-        <Header />
+      <div id="react-mvp">
         <HeroHeader />
 
-        <main className="grid-container">
-          Main
+        <main >
+          <EventInfo />
         </main>
 
         <Footer />

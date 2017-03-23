@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import { Row, Col } from 'react-flexbox-grid';
-import { Container } from 'semantic-ui-react'
 
 import * as assets from './assets';
 import './header.css';
@@ -8,10 +7,10 @@ import './header.css';
 class Header extends PureComponent {
   render() {
     return (
-      <header>
+      <header className="grid-container">
         <Row>
           <Col>
-            <img src={assets.logo} />
+            <img src={assets.logo} alt="PDVend" />
           </Col>
         </Row>
       </header>

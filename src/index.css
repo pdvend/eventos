@@ -20,16 +20,11 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
   padding: 0;
   margin: 0;
-}
-
-html, body, #root {
-  height: 100%;
 }
 
 /* COLORS */
@@ -45,6 +40,11 @@ html, body, #root {
 
 .handwritten {
   font-family: 'Pacifico', cursive;
+}
+
+.description-paragraph {
+  line-height: 1.2em;
+  font-size: 1.3em;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -83,8 +83,4 @@ h6, .h6 {
   padding-left: 0.5rem !important;
   padding-right: 0.5rem !important;
   width: 100%;
-}
-
-.layout-full-height {
-  height: 100%;
 }

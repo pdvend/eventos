@@ -6,7 +6,7 @@ import './layout.css';
 class LayoutView extends PureComponent {
   render() {
     return (
-      <main className="layout-full-height">
+      <main>
         <UIView />
       </main>
     );

@@ -1,7 +1,7 @@
 #react-mvp .hero-header {
   color: white;
-  padding: 10em 5em;
   background-image: url('./assets/background.png');
+  padding: 3em 0 5em;
 }
 
 #react-mvp .hero-header__container > h1 {
@@ -9,8 +9,7 @@
 }
 
 #react-mvp .hero-header__container > h1, #react-mvp .hero-header__container > h2 {
-  display: inline;
-  font-family: 'Roboto';
   font-weight: bolder;
   letter-spacing: 0.1em;
+  margin: 0;
 }
