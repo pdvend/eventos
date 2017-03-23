@@ -1,4 +1,5 @@
 # PDVend Eventos
+[![Build Status](https://semaphoreci.com/api/v1/pdvend/eventos/branches/master/shields_badge.svg)](https://semaphoreci.com/pdvend/eventos)
 
 Esse é o repositório oficial de páginas de evento da [PDVend](https://www.pdvend.com.br/)!
 
