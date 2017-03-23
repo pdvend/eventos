@@ -1,5 +1,16 @@
 @import '../../index.config.css';
 
 header {
-  background: var(--primaryColor);
+  background: var(--baseColor);
+  padding: 1.5em 1em;
+}
+
+footer {
+  background: var(--primaryColorDark);
+  color: var(--baseColor);
+  padding: 1.5em 1em;
+}
+
+#react-mvp a {
+  color: var(--baseColor);
 }
