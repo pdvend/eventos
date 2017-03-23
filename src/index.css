@@ -1,3 +1,23 @@
+/* COLORS */
+/*
+  --primaryColorLight: #7CABBF;
+  --primaryColor: #245066;
+  --primaryColorDark: #16303D;
+
+  --secundaryColorLight: #D9D9D9;
+  --secundaryColor: #868F91;
+
+  --accentColor: #88C647;
+  --accentColorDark: #2D8019;
+  --accentColor2: #EF5F98;
+
+  --warningColor: #C54141;
+  --warningColorDark: #9C2E2E;
+
+  --baseColor: #F9F9F9;
+  --baseColorDark: #000000;
+*/
+
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -12,10 +32,49 @@ html, body, #root {
   height: 100%;
 }
 
-/* FONTS */
+/* COLORS */
+.color-primary {
+  color: #7CABBF;
+}
+
+.color-accent {
+  color: #88C647;
+}
+
+/* TYPOGRAPHY */
 
 .handwritten {
   font-family: 'Pacifico', cursive;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0.6em 0;
+}
+
+h1, .h1 {
+  font-size: 54px;
+}
+
+h2, .h2 {
+  font-size: 48px;
+}
+
+h3, .h3 {
+  font-size: 42px;
+}
+
+h4, .h4 {
+  font-size: 36px;
+}
+
+h5, .h5 {
+  font-size: 30px;
+}
+
+h6, .h6 {
+  font-size: 19px;
 }
 
 /* GRID */

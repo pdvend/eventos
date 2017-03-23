@@ -1,5 +1,3 @@
-@import '../../index.config.css';
-
 #react-mvp a {
-  color: var(--baseColor);
+  color: #F9F9F9;
 }

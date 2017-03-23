@@ -140,10 +140,6 @@ module.exports = {
       // In production, we use a plugin to extract that CSS to a file, but
       // in development "style" loader enables hot editing of CSS.
       {
-        test: /\.config.css$/,
-        loader: 'postcss-variables-loader?es5=1'
-      },
-      {
         test: /.css$/,
         loader: 'style!css?modules',
         include: /flexboxgrid/
@@ -171,8 +167,6 @@ module.exports = {
       // Remember to add the new extension(s) to the "url" loader exclusion list.
     ]
   },
-
-  // We use PostCSS for autoprefixing only.
   postcss: function() {
     return [
       autoprefixer({

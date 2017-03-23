@@ -1,8 +1,6 @@
-@import '../../../index.config.css';
-
 footer {
-  background: var(--primaryColorDark);
-  color: var(--baseColor);
+  background: #16303D;
+  color: #F9F9F9;
   padding: 1.5em 1em;
 }
 

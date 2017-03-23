@@ -5,6 +5,8 @@ import { Container, Icon } from 'semantic-ui-react'
 import Header from '../../core/view/header';
 import Footer from '../../core/view/footer';
 
+import HeroHeader from './components/hero-header';
+
 import './react-mvp.css';
 
 class ReactMVPView extends PureComponent {
@@ -25,6 +27,7 @@ class ReactMVPView extends PureComponent {
     return (
       <div className="layout-full-height" id="react-mvp">
         <Header />
+        <HeroHeader />
 
         <main className="grid-container">
           Main

@@ -1,6 +1,4 @@
-@import '../../../index.config.css';
-
 header {
-  background: var(--primaryColorDark);
+  background: #16303D;
   padding: 1.5em 1em;
 }
