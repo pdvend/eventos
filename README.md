@@ -10,4 +10,5 @@ Esse é o repositório oficial de páginas de evento da [PDVend](https://www.pdv
 > Lembre-se de ficar atento aos padrões de arquitetura utilizados no projeto.
 
 ### Agradecimentos
-- [Create React App](https://github.com/facebookincubator/create-react-app).
+- [Create React App](https://github.com/facebookincubator/create-react-app)
+- [S(GH)PA](https://www.smashingmagazine.com/2016/08/sghpa-single-page-app-hack-github-pages/)
