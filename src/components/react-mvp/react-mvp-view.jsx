@@ -1,4 +1,7 @@
 import React, { PureComponent } from 'react';
+import { Row, Col } from 'react-flexbox-grid';
+
+import './react-mvp.css';
 
 class ReactMVPView extends PureComponent {
   constructor(props) {
@@ -16,8 +19,18 @@ class ReactMVPView extends PureComponent {
 
   render() {
     return (
-      <div className="layout-full-height grid-container">
-        <h1>Hello World from React MVP</h1>
+      <div className="layout-full-height">
+        <header>
+          Header
+        </header>
+
+        <main className="grid-container">
+          Main
+        </main>
+
+        <footer>
+          Footer
+        </footer>
       </div>
     );
   }

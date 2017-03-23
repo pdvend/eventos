@@ -139,6 +139,10 @@ module.exports = {
       // use the "style" loader inside the async code so CSS from them won't be
       // in the main CSS file.
       {
+        test: /\.config.css$/,
+        loader: 'postcss-variables-loader?es5=1'
+      },
+      {
         test: /.css$/,
         loader: 'style!css?modules',
         include: /flexboxgrid/
