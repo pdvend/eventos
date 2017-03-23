@@ -1,0 +1,12 @@
+@import '../../../index.config.css';
+
+footer {
+  background: var(--primaryColorDark);
+  color: var(--baseColor);
+  padding: 1.5em 1em;
+}
+
+footer span {
+  vertical-align: text-bottom;
+  padding: 0 0.5em;
+}
