@@ -4,6 +4,7 @@ import Footer from '../../core/view/footer';
 
 import HeroHeader from './components/hero-header';
 import EventInfo from './components/event-info';
+import Subscribe from './components/subscribe';
 
 import './react-mvp.css';
 
@@ -28,6 +29,7 @@ class ReactMVPView extends PureComponent {
 
         <main >
           <EventInfo />
+          <Subscribe />
         </main>
 
         <Footer />
