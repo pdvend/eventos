@@ -25,22 +25,32 @@ class EventInfo extends PureComponent {
               </p>
 
               <p className="description-paragraph">
-                O workshop vai acontecer no <strong>Sábado, dia 01/04, entre 9h e 18h</strong> e
-                será <strong>gratuito</strong>. Teremos paradas para fazer <em>coffeebreaks</em> e para o almoço.
+                O workshop irá acontecer no <strong>Sábado, dia 01/04, entre 9h e 18h</strong>, no <strong>Escritório
+                da PDVend BSB</strong>. Fica em Águas Claras, na Av. Pau Brasil, 6 (Edifício E-Business), ao
+                lado da estação Águas Claras do metrô. O evento será <strong>gratuito</strong>. Teremos paradas para
+                fazer <em>Coffee Breaks</em> e para o almoço.
               </p>
+
+              <iframe src="https://goo.gl/nd0PYN" frameBorder="0" allowFullScreen className="event-info__map"></iframe>
             </Container>
           </Col>
 
           <Col xs={12} md={6} className="event-info__column">
             <Container textAlign="justified">
-              <Header size='huge'>Onde?</Header>
+              <Header size='huge'>Agenda</Header>
 
-              <p>
-                No <strong>Escritório da PDVend BSB</strong>. Fica em Águas Claras, na Avenida Pau Brasil, número 6.
-                Edifício E-Business, ao lado da estação Águas Claras do metrô.
-              </p>
-
-              <iframe src="https://goo.gl/nd0PYN" frameBorder="0" allowFullScreen className="event-info__map"></iframe>
+              <ul className="event-info__agenda">
+                <li><strong>09h00:</strong> Abertura</li>
+                <li><strong>09h10:</strong> Apresentações</li>
+                <li><strong>09h30:</strong> Por que pensar em uma arquitetura para uma aplicação em React?</li>
+                <li><strong>10h30:</strong> <em>Coffee Break</em></li>
+                <li><strong>10h45:</strong> MVP - vantagens, desvantagens e alternativas</li>
+                <li><strong>12h00:</strong> Almoço</li>
+                <li><strong>13h30:</strong> Prática: Iniciando uma aplicação com React e MVP</li>
+                <li><strong>15h00:</strong> <em>Coffee Break</em></li>
+                <li><strong>15h15:</strong> Prática: Evoluindo a aplicação</li>
+                <li><strong>18h00:</strong> Encerramento</li>
+              </ul>
 
               <Divider section />
 
