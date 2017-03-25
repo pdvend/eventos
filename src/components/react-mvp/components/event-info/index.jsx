@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Row, Col } from 'react-flexbox-grid';
-import { Container, Divider, Header, Card } from 'semantic-ui-react'
+import { Container, Divider, Header } from 'semantic-ui-react'
 
 import * as assets from './assets';
 

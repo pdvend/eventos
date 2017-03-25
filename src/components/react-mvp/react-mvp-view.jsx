@@ -1,8 +1,5 @@
 import React, { PureComponent } from 'react';
 
-import { Row, Col } from 'react-flexbox-grid';
-
-import Header from '../../core/view/header';
 import Footer from '../../core/view/footer';
 
 import HeroHeader from './components/hero-header';
